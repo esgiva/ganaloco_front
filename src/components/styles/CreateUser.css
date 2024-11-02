@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: #d28fb6; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 60%;
+    text-align: center;
+}
+
+.entry {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #e9ecef; /* Fondo gris claro para entradas */
+    color: #333; /* Color de texto gris oscuro */
+}
+
+#tituloCrearUsuario {
+    font-style: italic;
+    color: #0056b3; /* Azul oscuro */
+}
+
+#inputUsername, #inputNombre, #inputPassword {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e9ecef; /* Fondo gris claro para entradas */
+    color: #333; /* Color de texto gris oscuro */
+    border: none;
+}
+
+.password-field {
+    position: relative;
+    margin-top: 10px;
+}
+
+.password-field input {
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #007bff; /* Azul brillante */
+    cursor: pointer;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #007bff; /* Azul brillante */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+#btnHome {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #007bff; /* Azul brillante */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnHome:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+#txtBienvenida {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: #333; /* Gris oscuro */
+    margin-bottom: 20px;
+}
+
+.txt {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #333; /* Gris oscuro */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #2ce9f0; /* Cambia el color del checkbox cuando está seleccionado */
+}
+
+#checkbox {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Gris oscuro */
+    cursor: pointer;
+}
+
+label {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color
+
