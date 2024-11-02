@@ -22,7 +22,7 @@ function CreateUser() {
         setSuccessMessage('');
 
         try {
-            const response = await axios.post('http://localhost:4000/v1/drivers/createUser', {
+            const response = await axios.post('https://ganaloco-back.vercel.app/v1/drivers/createUser', {
                 username,
                 password,
                 nombre,
